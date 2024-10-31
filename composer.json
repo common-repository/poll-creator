@@ -1,0 +1,23 @@
+{
+    "name": "wprigel/pollify",
+    "description": "Ultimate Poll Creator and Survey Maker Plugin for WordPress",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0",
+        "phpcompatibility/phpcompatibility-wp": "*",
+        "sirbrillig/phpcs-variable-analysis": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "wpRigel\\Pollify\\": "includes/"
+        }
+    },
+    "scripts": {
+        "cs": "@php ./vendor/bin/phpcs . --ignore=tests",
+        "cs:fix": "@php ./vendor/bin/phpcbf . --ignore=tests"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

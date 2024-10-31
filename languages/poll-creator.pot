@@ -1,0 +1,583 @@
+# Copyright (C) 2024 wprigel
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pollify 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pollify\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-30T17:15:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Menu.php:100
+#: includes/Admin/Menu.php:101
+#: includes/Blocks.php:64
+msgid "Pollify"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://wprigel.com/product/poll-creator/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Pollify is the ultimate poll creator and survey maker plugin for WordPress, 100% powered by the Gutenberg editor. No short code required, no capping on vote counts. Enjoy the freedom & boost user engagement."
+msgstr ""
+
+#. Author of the plugin
+msgid "wprigel"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wprigel.com/"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:62
+#: includes/Admin/IPsListTable.php:76
+msgid "IP"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:63
+msgid "IP's"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:77
+#: includes/Admin/VotesListTable.php:77
+#: templates/admin/overview.php:164
+msgid "Location"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:78
+#: includes/helpers/functions.php:377
+#: templates/admin/overview.php:113
+msgid "Votes"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:96
+#: includes/Admin/IPsListTable.php:98
+msgid "N/A"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:120
+#: includes/Admin/VotesListTable.php:155
+#: templates/admin/overview.php:134
+#: templates/admin/overview.php:176
+msgid "Unknown"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:139
+#: includes/Admin/VotesListTable.php:186
+msgid "All countries"
+msgstr ""
+
+#: includes/Admin/IPsListTable.php:148
+#: includes/Admin/PollsListTable.php:294
+#: includes/Admin/VotesListTable.php:205
+msgid "Filter"
+msgstr ""
+
+#: includes/Admin/Menu.php:83
+msgid "Contact us"
+msgstr ""
+
+#: includes/Admin/Menu.php:85
+#: includes/Plugin.php:104
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/Menu.php:197
+msgid "Polls per page"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:49
+msgid "Title"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:50
+msgid "Type"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:51
+msgid "Source"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:52
+#: src/poll/edit.js:128
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:53
+msgid "Total Response"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:54
+msgid "Created at"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:120
+msgid "Are you sure you want to reset the results? If you do reset, the results are not achievable again."
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:125
+#: src/poll/edit.js:179
+msgid "View results"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:126
+msgid "Reset Results"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:165
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:166
+msgid "View frontend"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:189
+#: includes/Admin/PollsListTable.php:270
+#: src/poll/edit.js:131
+msgid "Open"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:190
+#: includes/Admin/PollsListTable.php:202
+#: includes/Admin/PollsListTable.php:271
+msgid "Closed"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:191
+msgid "Schedule"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:192
+msgid "Trash"
+msgstr ""
+
+#. translators: %s: poll end date
+#: includes/Admin/PollsListTable.php:198
+msgid "Ended at %s"
+msgstr ""
+
+#. translators: %s: poll end date
+#: includes/Admin/PollsListTable.php:206
+msgid "Will be ended on %s"
+msgstr ""
+
+#. translators: %s: votes count
+#: includes/Admin/PollsListTable.php:242
+#: templates/admin/overview.php:65
+#: templates/results/horizointal-bar-chart.php:31
+msgid "%s votes"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:269
+msgid "All"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:290
+msgid "All types"
+msgstr ""
+
+#: includes/Admin/PollsListTable.php:291
+msgid "Poll"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:62
+msgid "Vote"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:63
+msgid "Votess"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:76
+msgid "Name"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:78
+#: templates/admin/overview.php:165
+msgid "IP Address"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:79
+msgid "Vote answer"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:80
+msgid "Vote date"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:137
+#: templates/admin/overview.php:235
+msgid "Guest"
+msgstr ""
+
+#: includes/Admin/VotesListTable.php:198
+msgid "All answers"
+msgstr ""
+
+#: includes/Blocks.php:206
+msgid "Inline list"
+msgstr ""
+
+#: includes/helpers/functions.php:364
+msgid "Overview"
+msgstr ""
+
+#: includes/helpers/functions.php:391
+msgid "IP Details"
+msgstr ""
+
+#: includes/Model/Poll.php:225
+msgid "Options are empty."
+msgstr ""
+
+#: includes/Model/Poll.php:229
+#: templates/poll/poll.php:145
+#: src/poll/edit.js:163
+#: src/poll/edit.js:165
+msgid "This poll is closed"
+msgstr ""
+
+#: includes/Model/Poll.php:240
+msgid "You have already voted."
+msgstr ""
+
+#: includes/Plugin.php:103
+msgid "Get started"
+msgstr ""
+
+#. translators: %s: Field name
+#: includes/Polls.php:181
+msgid "Error: %s cannot be left empty. Please fill the required information"
+msgstr ""
+
+#: includes/Polls.php:206
+#: includes/Polls.php:209
+msgid "Options must contain type and option value"
+msgstr ""
+
+#: includes/Polls.php:215
+msgid "Client id is not valid"
+msgstr ""
+
+#: includes/Polls.php:252
+msgid "Poll not updated successfully"
+msgstr ""
+
+#: includes/Polls.php:280
+msgid "Poll not created successfully"
+msgstr ""
+
+#: includes/Polls.php:327
+msgid "Poll not found"
+msgstr ""
+
+#: includes/Polls.php:374
+#: includes/Polls.php:384
+msgid "Poll not deleted successfully"
+msgstr ""
+
+#: includes/Polls.php:453
+msgid "Poll ID cannot be empty"
+msgstr ""
+
+#: includes/REST/PollsController.php:78
+#: includes/REST/PollsController.php:268
+#: includes/REST/VotesController.php:117
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: includes/REST/PollsController.php:210
+msgid "Poll deleted successfully"
+msgstr ""
+
+#: includes/REST/PollsController.php:225
+msgid "Invalid resource id."
+msgstr ""
+
+#: includes/REST/PollsController.php:274
+msgid "Poll title"
+msgstr ""
+
+#: includes/REST/PollsController.php:281
+msgid "Poll description"
+msgstr ""
+
+#: includes/REST/PollsController.php:287
+msgid "The poll type. It can be normal poll, quize or NPS"
+msgstr ""
+
+#: includes/REST/PollsController.php:294
+msgid "Poll status"
+msgstr ""
+
+#: includes/REST/PollsController.php:302
+msgid "From where the poll was created"
+msgstr ""
+
+#: includes/REST/PollsController.php:308
+msgid "Poll options"
+msgstr ""
+
+#: includes/REST/PollsController.php:313
+msgid "The date the withdraw request has beed created in the site's timezone."
+msgstr ""
+
+#: includes/REST/PollsController.php:319
+msgid "The date the withdraw request has beed updated in the site's timezone."
+msgstr ""
+
+#: includes/REST/VotesController.php:56
+msgid "Unique identifier for the object for poll"
+msgstr ""
+
+#: includes/REST/VotesController.php:81
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/REST/VotesController.php:85
+#: includes/REST/VotesController.php:91
+msgid "Invalid poll"
+msgstr ""
+
+#: includes/REST/VotesController.php:124
+msgid "Option IDs"
+msgstr ""
+
+#: includes/REST/VotesController.php:129
+msgid "Return with result or not"
+msgstr ""
+
+#: includes/Votes.php:56
+msgid "Poll ID or Option ID is empty."
+msgstr ""
+
+#: includes/Votes.php:63
+msgid "Invalid poll data."
+msgstr ""
+
+#: includes/Votes.php:68
+msgid "Invalid poll option."
+msgstr ""
+
+#: includes/Votes.php:106
+msgid "Sorry vote not accepted."
+msgstr ""
+
+#: templates/admin/overview.php:27
+msgid "Back to list"
+msgstr ""
+
+#: templates/admin/overview.php:50
+msgid "At a glance"
+msgstr ""
+
+#. translators: %s: percentage
+#: templates/admin/overview.php:71
+#: templates/admin/overview.php:78
+#: templates/results/horizointal-bar-chart.php:37
+#: templates/results/horizointal-bar-chart.php:44
+msgid "%s%"
+msgstr ""
+
+#. translators: %s: total votes
+#: templates/admin/overview.php:88
+msgid "Total votes: %s"
+msgstr ""
+
+#: templates/admin/overview.php:93
+#: templates/results/horizointal-bar-chart.php:59
+msgid "No results found for this poll"
+msgstr ""
+
+#: templates/admin/overview.php:101
+msgid "Popular Location"
+msgstr ""
+
+#: templates/admin/overview.php:113
+msgid "Country"
+msgstr ""
+
+#: templates/admin/overview.php:141
+#: templates/admin/overview.php:203
+msgid "No location data found for this poll"
+msgstr ""
+
+#: templates/admin/overview.php:148
+msgid "IP overviews"
+msgstr ""
+
+#: templates/admin/overview.php:166
+msgid "Vote count"
+msgstr ""
+
+#: templates/admin/overview.php:200
+msgid "See all IP's"
+msgstr ""
+
+#: templates/admin/overview.php:212
+msgid "Recent votes"
+msgstr ""
+
+#: templates/admin/overview.php:269
+msgid "See all votes"
+msgstr ""
+
+#: templates/admin/overview.php:273
+msgid "No recent votes found for this poll"
+msgstr ""
+
+#: templates/admin/overview.php:289
+#: templates/admin/overview.php:306
+msgid "Search by IP"
+msgstr ""
+
+#: templates/admin/polls.php:23
+msgid "Poll results has been reseted."
+msgstr ""
+
+#: templates/admin/polls.php:25
+msgid "Dismiss this notice."
+msgstr ""
+
+#: templates/admin/polls.php:40
+msgid "Search by title"
+msgstr ""
+
+#: templates/poll/poll.php:156
+msgid "Thank you for voting!"
+msgstr ""
+
+#. translators: %s: total votes
+#: templates/results/horizointal-bar-chart.php:54
+msgid "Total votes %s"
+msgstr ""
+
+#: src/poll/edit.js:126
+msgid "General settings"
+msgstr ""
+
+#: src/poll/edit.js:132
+msgid "Close"
+msgstr ""
+
+#: src/poll/edit.js:133
+msgid "Close after"
+msgstr ""
+
+#: src/poll/edit.js:149
+msgid "When poll is closed"
+msgstr ""
+
+#: src/poll/edit.js:152
+msgid "Show poll result"
+msgstr ""
+
+#: src/poll/edit.js:153
+msgid "Hide poll"
+msgstr ""
+
+#: src/poll/edit.js:154
+msgid "Show poll close message"
+msgstr ""
+
+#: src/poll/edit.js:164
+msgid "Close message text"
+msgstr ""
+
+#: src/poll/edit.js:174
+msgid "Confiramtion message"
+msgstr ""
+
+#: src/poll/edit.js:176
+msgid "On submission"
+msgstr ""
+
+#: src/poll/edit.js:180
+msgid "View message"
+msgstr ""
+
+#: src/poll/edit.js:187
+#: src/poll/edit.js:189
+msgid "Thanks for voting!"
+msgstr ""
+
+#: src/poll/edit.js:188
+msgid "Message text"
+msgstr ""
+
+#: src/poll/edit.js:197
+msgid "Response settings"
+msgstr ""
+
+#: src/poll/edit.js:199
+msgid "Allowed one response per computer"
+msgstr ""
+
+#: src/poll/edit.js:200
+msgid "If checked, only one response per computer will be allowed."
+msgstr ""
+
+#: src/poll/edit.js:208
+msgid "Submit button colors"
+msgstr ""
+
+#: src/poll/edit.js:214
+#: src/poll/edit.js:291
+msgid "Background Color"
+msgstr ""
+
+#: src/poll/edit.js:219
+#: src/poll/edit.js:296
+msgid "Text Color"
+msgstr ""
+
+#: src/poll/edit.js:224
+msgid "Hover Background Color"
+msgstr ""
+
+#: src/poll/edit.js:229
+msgid "Hover Text Color"
+msgstr ""
+
+#: src/poll/edit.js:233
+#: src/poll/edit.js:234
+msgid "Button width"
+msgstr ""
+
+#: src/poll/edit.js:261
+msgid "Button alignment"
+msgstr ""
+
+#: src/poll/edit.js:285
+msgid "Poll closing banner"
+msgstr ""
+
+#: src/poll/edit.js:322
+msgid "Enter the poll question"
+msgstr ""
+
+#: src/poll/edit.js:330
+msgid "Add a description (optional)"
+msgstr ""
+
+#: src/poll/option.js:38
+msgid "Enter option"
+msgstr ""
+
+#: src/poll/block.json
+msgctxt "block title"
+msgid "Poll"
+msgstr ""
+
+#: src/poll/block.json
+msgctxt "block description"
+msgid "Poll block for creating poll with posts"
+msgstr ""
